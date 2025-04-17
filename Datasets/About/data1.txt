@@ -1,0 +1,7 @@
+Dataset: Datasets//data1.csv
+     - Colmuns: index, title, genre, summary, 
+     - genres: thriller: 21.97%, fantasy: 18.81%, science: 13.89%, history: 12.88%, 
+horror: 12.88%, crime: 10.74%, romance: 2.38%, psychology: 2.15%, sports: 2.15%, 
+travel: 2.15%, 
+     - Number of rows: 4657
+     - Number of Classes: 10

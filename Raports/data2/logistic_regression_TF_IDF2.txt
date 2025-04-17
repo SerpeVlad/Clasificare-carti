@@ -1,0 +1,71 @@
+Train data procentage:0.5999938738628358
+Test data procentage:0.4000061261371642
+Dataset: Datasets//data2.csv
+
+Bag of Words
+Acuratețea modelului: 0.6465655869515277
+
+
+Raport de clasificare:
+                             precision    recall  f1-score   support
+
+    antiques & collectibles       0.67      0.68      0.68        60
+               architecture       0.29      0.25      0.27        48
+                        art       0.37      0.52      0.44       185
+                     bibles       0.15      0.50      0.23        18
+  biography & autobiography       0.46      0.54      0.50       848
+                       body       0.30      0.44      0.36       129
+       business & economics       0.80      0.73      0.76      1015
+    comics & graphic novels       0.32      0.21      0.25        48
+                  computers       0.82      0.84      0.83       332
+                    cooking       0.92      0.90      0.91      1156
+           crafts & hobbies       0.61      0.63      0.62       270
+                     design       0.28      0.32      0.30        28
+                      drama       0.52      0.72      0.60        86
+                  education       0.56      0.64      0.59       210
+     family & relationships       0.52      0.60      0.56       507
+                    fiction       0.93      0.75      0.83      7089
+     foreign language study       0.47      0.68      0.55        50
+                      games       0.41      0.35      0.38        55
+         games & activities       0.36      0.35      0.35        40
+                  gardening       0.83      0.86      0.84       234
+           health & fitness       0.70      0.66      0.68       635
+                    history       0.45      0.57      0.50       817
+               house & home       0.64      0.80      0.71       322
+                      humor       0.41      0.63      0.49       390
+           juvenile fiction       0.72      0.69      0.70      2575
+        juvenile nonfiction       0.51      0.39      0.44      1066
+language arts & disciplines       0.44      0.47      0.45       201
+                        law       0.41      0.51      0.45        73
+       literary collections       0.11      0.25      0.15        61
+         literary criticism       0.20      0.29      0.23       132
+                mathematics       0.62      0.72      0.67        57
+                    medical       0.40      0.48      0.43       227
+                      music       0.51      0.69      0.59       103
+                     nature       0.30      0.45      0.36       164
+           non-classifiable       0.00      0.00      0.00        13
+            performing arts       0.42      0.52      0.47       131
+                       pets       0.72      0.86      0.78       246
+                 philosophy       0.29      0.39      0.33        98
+                photography       0.45      0.65      0.53       148
+                     poetry       0.52      0.73      0.61       109
+          political science       0.56      0.68      0.62       740
+                 psychology       0.37      0.36      0.37       315
+                  reference       0.42      0.35      0.38       342
+                   religion       0.81      0.59      0.68      1385
+                    science       0.44      0.48      0.46       340
+                  self-help       0.41      0.45      0.43       435
+             social science       0.36      0.28      0.31       584
+        sports & recreation       0.66      0.75      0.70       428
+                 study aids       0.61      0.66      0.63        94
+   technology & engineering       0.17      0.16      0.17       154
+             transportation       0.41      0.42      0.41        31
+                     travel       0.81      0.77      0.79       474
+                 true crime       0.56      0.47      0.51        30
+        young adult fiction       0.32      0.65      0.43       620
+     young adult nonfiction       0.18      0.18      0.18       170
+
+                   accuracy                           0.65     26118
+                  macro avg       0.48      0.54      0.50     26118
+               weighted avg       0.68      0.65      0.66     26118
+

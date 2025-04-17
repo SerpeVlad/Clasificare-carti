@@ -1,0 +1,63 @@
+Model 1: Models\data2_simplified\logistic_regression_BoW.joblib
+Model 2: Models\data2_simplified\logistic_regression_TFIDF.joblib
+Model 1 Corect predictions: 0.612304120719675
+Model 2 Corect predictions: 0.6230412071967498
+
+
+Corect-Corect: 2065                              0.5992455020313406%
+Corect-Gresit: 45                              0.0130586186883343%
+Gresit-Corect: 82                              0.02379570516540917%
+Gresit-Gresit: 1254                              0.3639001741149158%
+Total: 3446
+
+
+Corect-Gresit: {'education-fiction': 13, 'fiction-nonfiction': 6}
+
+
+
+Gresit-Corect{'education-fiction': 11, 'fiction-education': 10, 'nonfiction-fiction': 6, 'art-fiction': 5, 'art-education': 5}
+
+
+
+Gresit-Gresit{'fiction-fiction': 1055, 'biography & autobiography-biography & autobiography': 49, 'nonfiction-nonfiction': 26, 'education-education': 17, 'health-health': 14, 'religion-religion': 12, 'art-art': 9, 'biography & autobiography-fiction': 7, 'nonfiction-fiction': 6, 'art-fiction': 5}
+
+
+
+C-G: education-fiction : 13
+C-G: fiction-education : 0
+G-C: education-fiction : 11
+G-C: fiction-education : 10
+G-G: education-fiction : 0
+G-G: fiction-education : 0
+education-fiction: M1 > M2
+fiction-education: M2 > M1
+
+
+C-G: fiction-nonfiction : 6
+C-G: nonfiction-fiction : 0
+G-C: fiction-nonfiction : 0
+G-C: nonfiction-fiction : 6
+G-G: fiction-nonfiction : 0
+G-G: nonfiction-fiction : 6
+fiction-nonfiction: M1 > M2
+nonfiction-fiction: M2 > M1
+
+
+C-G: art-fiction : 0
+C-G: fiction-art : 0
+G-C: art-fiction : 5
+G-C: fiction-art : 0
+G-G: art-fiction : 5
+G-G: fiction-art : 0
+art-fiction: M2 > M1
+
+
+C-G: art-education : 0
+C-G: education-art : 0
+G-C: art-education : 5
+G-C: education-art : 0
+G-G: art-education : 0
+G-G: education-art : 0
+art-education: M2 > M1
+
+

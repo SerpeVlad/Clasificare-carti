@@ -1,0 +1,513 @@
+Model 1: Models\data2\logistic_regression_BoW.joblib
+Model 2: Models\data2\logistic_regression_TF_IDF3.joblib
+Model 1 Corect predictions: 0.9132385824118602
+Model 2 Corect predictions: 0.9234079701044506
+
+
+Corect-Corect: 58814                              0.90075657793978%
+Corect-Gresit: 815                              0.01248200447208013%
+Gresit-Corect: 1479                              0.022651392164670568%
+Gresit-Gresit: 4186                              0.06411002542346923%
+Total: 65294
+
+
+Corect-Gresit: {'juvenile fiction-juvenile nonfiction': 60, 'juvenile fiction-fiction': 57, 'juvenile nonfiction-juvenile fiction': 40, 'juvenile fiction-young adult fiction': 31, 'fiction-juvenile fiction': 17, 'young adult fiction-fiction': 14, 'cooking-health & fitness': 13, 'fiction-biography & autobiography': 12, 'fiction-young adult fiction': 12, 'religion-self-help': 11, 'religion-juvenile nonfiction': 11, 'biography & autobiography-fiction': 8, 'history-political science': 8, 'religion-family & relationships': 8, 'juvenile nonfiction-science': 8, 'biography & autobiography-history': 7, 'religion-biography & autobiography': 7, 'history-biography & autobiography': 7, 'religion-fiction': 7, 'religion-social science': 6, 'history-fiction': 6, 'religion-young adult nonfiction': 6, 'history-social science': 5, 'juvenile nonfiction-humor': 5, 'social science-biography & autobiography': 5, 'social science-history': 5, 'biography & autobiography-political science': 5, 'crafts & hobbies-house & home': 5, 'political science-history': 5}
+
+
+
+Gresit-Corect{'juvenile fiction-fiction': 175, 'juvenile nonfiction-juvenile fiction': 107, 'young adult fiction-fiction': 89, 'history-fiction': 59, 'biography & autobiography-fiction': 50, 'juvenile fiction-juvenile nonfiction': 28, 'juvenile nonfiction-fiction': 27, 'religion-fiction': 27, 'social science-fiction': 21, 'science-juvenile nonfiction': 19, 'literary collections-fiction': 16, 'young adult nonfiction-fiction': 16, 'young adult fiction-juvenile fiction': 15, 'literary criticism-fiction': 14, 'history-juvenile nonfiction': 13, 'juvenile nonfiction-religion': 13, 'travel-fiction': 11, 'history-religion': 11, 'social science-history': 11, 'humor-fiction': 10, 'social science-political science': 10, 'history-biography & autobiography': 9, 'sports & recreation-fiction': 9, 'religion-juvenile nonfiction': 9, 'history-political science': 8, 'medical-health & fitness': 8, 'political science-fiction': 8, 'art-juvenile nonfiction': 8, 'fiction-juvenile fiction': 8, 'crafts & hobbies-juvenile nonfiction': 8, 'cooking-health & fitness': 7, 'biography & autobiography-history': 7, 'self-help-religion': 6, 'health & fitness-cooking': 6, 'gardening-cooking': 6, 'self-help-health & fitness': 6, 'business & economics-fiction': 6, 'sports & recreation-juvenile nonfiction': 6, 'family & relationships-religion': 6, 'young adult nonfiction-religion': 6, 'juvenile fiction-young adult fiction': 6, 'psychology-self-help': 6, 'biography & autobiography-religion': 5, 'humor-juvenile fiction': 5, 'reference-fiction': 5, 'performing arts-fiction': 5, 'self-help-fiction': 5, 'religion-self-help': 5, 'family & relationships-juvenile fiction': 5, 'social science-business & economics': 5, 'history-juvenile fiction': 5, 'social science-biography & autobiography': 5, 'drama-fiction': 5, 'self-help-business & economics': 5, 'cooking-juvenile nonfiction': 5}
+
+
+
+Gresit-Gresit{'juvenile nonfiction-juvenile nonfiction': 313, 'juvenile fiction-juvenile fiction': 299, 'history-history': 241, 'fiction-fiction': 216, 'biography & autobiography-biography & autobiography': 183, 'social science-social science': 166, 'religion-religion': 157, 'political science-political science': 141, 'young adult fiction-young adult fiction': 117, 'family & relationships-family & relationships': 110, 'self-help-self-help': 99, 'business & economics-business & economics': 98, 'health & fitness-health & fitness': 95, 'humor-humor': 84, 'psychology-psychology': 73, 'reference-reference': 70, 'science-science': 65, 'sports & recreation-sports & recreation': 55, 'technology & engineering-technology & engineering': 49, 'young adult nonfiction-young adult nonfiction': 49, 'house & home-house & home': 48, 'art-art': 46, 'cooking-cooking': 39, 'medical-medical': 38, 'education-education': 37, 'crafts & hobbies-crafts & hobbies': 36, 'travel-travel': 34, 'language arts & disciplines-language arts & disciplines': 34, 'drama-drama': 31, 'photography-photography': 30, 'performing arts-performing arts': 27, 'literary criticism-literary criticism': 27, 'nature-nature': 27, 'pets-pets': 26, 'body-body': 26, 'computers-computers': 22, 'juvenile fiction-juvenile nonfiction': 21, 'philosophy-philosophy': 21, 'gardening-gardening': 21, 'music-music': 20, 'juvenile fiction-fiction': 18, 'poetry-poetry': 16, 'literary collections-literary collections': 15, 'games & activities-games & activities': 13, 'law-law': 12, 'history-juvenile nonfiction': 11, 'study aids-study aids': 10, 'foreign language study-foreign language study': 10, 'social science-history': 9, 'juvenile nonfiction-juvenile fiction': 9, 'non-classifiable-non-classifiable': 9, 'design-design': 8, 'young adult fiction-juvenile fiction': 8, 'art-juvenile nonfiction': 8, 'young adult nonfiction-juvenile nonfiction': 8, 'social science-fiction': 8, 'biography & autobiography-fiction': 7, 'history-political science': 7, 'games-games': 7, 'history-biography & autobiography': 7, 'architecture-architecture': 7, 'juvenile fiction-young adult fiction': 6, 'young adult fiction-fiction': 6, 'religion-juvenile nonfiction': 6, 'biography & autobiography-juvenile nonfiction': 6, 'young adult nonfiction-fiction': 5, 'history-fiction': 5, 'humor-juvenile fiction': 5, 'social science-biography & autobiography': 5, 'house & home-juvenile nonfiction': 5, 'mathematics-mathematics': 5, 'juvenile nonfiction-biography & autobiography': 5}
+
+
+
+C-G: juvenile fiction-juvenile nonfiction : 60
+C-G: juvenile nonfiction-juvenile fiction : 40
+G-C: juvenile fiction-juvenile nonfiction : 28
+G-C: juvenile nonfiction-juvenile fiction : 107
+G-G: juvenile fiction-juvenile nonfiction : 21
+G-G: juvenile nonfiction-juvenile fiction : 9
+juvenile fiction-juvenile nonfiction: M1 > M2
+juvenile nonfiction-juvenile fiction: M2 > M1
+
+
+C-G: juvenile fiction-fiction : 57
+C-G: fiction-juvenile fiction : 17
+G-C: juvenile fiction-fiction : 175
+G-C: fiction-juvenile fiction : 8
+G-G: juvenile fiction-fiction : 18
+G-G: fiction-juvenile fiction : 0
+juvenile fiction-fiction: M2 > M1
+fiction-juvenile fiction: M1 > M2
+
+
+C-G: juvenile fiction-young adult fiction : 31
+C-G: young adult fiction-juvenile fiction : 0
+G-C: juvenile fiction-young adult fiction : 6
+G-C: young adult fiction-juvenile fiction : 15
+G-G: juvenile fiction-young adult fiction : 6
+G-G: young adult fiction-juvenile fiction : 8
+juvenile fiction-young adult fiction: M1 > M2
+young adult fiction-juvenile fiction: M2 > M1
+
+
+C-G: young adult fiction-fiction : 14
+C-G: fiction-young adult fiction : 12
+G-C: young adult fiction-fiction : 89
+G-C: fiction-young adult fiction : 0
+G-G: young adult fiction-fiction : 6
+G-G: fiction-young adult fiction : 0
+young adult fiction-fiction: M2 > M1
+fiction-young adult fiction: M1 > M2
+
+
+C-G: cooking-health & fitness : 13
+C-G: health & fitness-cooking : 0
+G-C: cooking-health & fitness : 7
+G-C: health & fitness-cooking : 6
+G-G: cooking-health & fitness : 0
+G-G: health & fitness-cooking : 0
+cooking-health & fitness: M1 > M2
+health & fitness-cooking: M2 > M1
+
+
+C-G: fiction-biography & autobiography : 12
+C-G: biography & autobiography-fiction : 8
+G-C: fiction-biography & autobiography : 0
+G-C: biography & autobiography-fiction : 50
+G-G: fiction-biography & autobiography : 0
+G-G: biography & autobiography-fiction : 7
+fiction-biography & autobiography: M1 > M2
+biography & autobiography-fiction: M2 > M1
+
+
+C-G: religion-self-help : 11
+C-G: self-religion : 0
+G-C: religion-self-help : 5
+G-C: self-religion : 0
+G-G: religion-self-help : 0
+G-G: self-religion : 0
+religion-self-help: M1 > M2
+
+
+C-G: religion-juvenile nonfiction : 11
+C-G: juvenile nonfiction-religion : 0
+G-C: religion-juvenile nonfiction : 9
+G-C: juvenile nonfiction-religion : 13
+G-G: religion-juvenile nonfiction : 6
+G-G: juvenile nonfiction-religion : 0
+religion-juvenile nonfiction: M1 > M2
+juvenile nonfiction-religion: M2 > M1
+
+
+C-G: history-political science : 8
+C-G: political science-history : 5
+G-C: history-political science : 8
+G-C: political science-history : 0
+G-G: history-political science : 7
+G-G: political science-history : 0
+political science-history: M1 > M2
+
+
+C-G: religion-family & relationships : 8
+C-G: family & relationships-religion : 0
+G-C: religion-family & relationships : 0
+G-C: family & relationships-religion : 6
+G-G: religion-family & relationships : 0
+G-G: family & relationships-religion : 0
+religion-family & relationships: M1 > M2
+family & relationships-religion: M2 > M1
+
+
+C-G: juvenile nonfiction-science : 8
+C-G: science-juvenile nonfiction : 0
+G-C: juvenile nonfiction-science : 0
+G-C: science-juvenile nonfiction : 19
+G-G: juvenile nonfiction-science : 0
+G-G: science-juvenile nonfiction : 0
+juvenile nonfiction-science: M1 > M2
+science-juvenile nonfiction: M2 > M1
+
+
+C-G: biography & autobiography-history : 7
+C-G: history-biography & autobiography : 7
+G-C: biography & autobiography-history : 7
+G-C: history-biography & autobiography : 9
+G-G: biography & autobiography-history : 0
+G-G: history-biography & autobiography : 7
+history-biography & autobiography: M2 > M1
+
+
+C-G: religion-biography & autobiography : 7
+C-G: biography & autobiography-religion : 0
+G-C: religion-biography & autobiography : 0
+G-C: biography & autobiography-religion : 5
+G-G: religion-biography & autobiography : 0
+G-G: biography & autobiography-religion : 0
+religion-biography & autobiography: M1 > M2
+biography & autobiography-religion: M2 > M1
+
+
+C-G: religion-fiction : 7
+C-G: fiction-religion : 0
+G-C: religion-fiction : 27
+G-C: fiction-religion : 0
+G-G: religion-fiction : 0
+G-G: fiction-religion : 0
+religion-fiction: M2 > M1
+
+
+C-G: religion-social science : 6
+C-G: social science-religion : 0
+G-C: religion-social science : 0
+G-C: social science-religion : 0
+G-G: religion-social science : 0
+G-G: social science-religion : 0
+religion-social science: M1 > M2
+
+
+C-G: history-fiction : 6
+C-G: fiction-history : 0
+G-C: history-fiction : 59
+G-C: fiction-history : 0
+G-G: history-fiction : 5
+G-G: fiction-history : 0
+history-fiction: M2 > M1
+
+
+C-G: religion-young adult nonfiction : 6
+C-G: young adult nonfiction-religion : 0
+G-C: religion-young adult nonfiction : 0
+G-C: young adult nonfiction-religion : 6
+G-G: religion-young adult nonfiction : 0
+G-G: young adult nonfiction-religion : 0
+religion-young adult nonfiction: M1 > M2
+young adult nonfiction-religion: M2 > M1
+
+
+C-G: history-social science : 5
+C-G: social science-history : 5
+G-C: history-social science : 0
+G-C: social science-history : 11
+G-G: history-social science : 0
+G-G: social science-history : 9
+history-social science: M1 > M2
+social science-history: M2 > M1
+
+
+C-G: juvenile nonfiction-humor : 5
+C-G: humor-juvenile nonfiction : 0
+G-C: juvenile nonfiction-humor : 0
+G-C: humor-juvenile nonfiction : 0
+G-G: juvenile nonfiction-humor : 0
+G-G: humor-juvenile nonfiction : 0
+juvenile nonfiction-humor: M1 > M2
+
+
+C-G: social science-biography & autobiography : 5
+C-G: biography & autobiography-social science : 0
+G-C: social science-biography & autobiography : 5
+G-C: biography & autobiography-social science : 0
+G-G: social science-biography & autobiography : 5
+G-G: biography & autobiography-social science : 0
+
+
+C-G: biography & autobiography-political science : 5
+C-G: political science-biography & autobiography : 0
+G-C: biography & autobiography-political science : 0
+G-C: political science-biography & autobiography : 0
+G-G: biography & autobiography-political science : 0
+G-G: political science-biography & autobiography : 0
+biography & autobiography-political science: M1 > M2
+
+
+C-G: crafts & hobbies-house & home : 5
+C-G: house & home-crafts & hobbies : 0
+G-C: crafts & hobbies-house & home : 0
+G-C: house & home-crafts & hobbies : 0
+G-G: crafts & hobbies-house & home : 0
+G-G: house & home-crafts & hobbies : 0
+crafts & hobbies-house & home: M1 > M2
+
+
+C-G: juvenile nonfiction-fiction : 0
+C-G: fiction-juvenile nonfiction : 0
+G-C: juvenile nonfiction-fiction : 27
+G-C: fiction-juvenile nonfiction : 0
+G-G: juvenile nonfiction-fiction : 0
+G-G: fiction-juvenile nonfiction : 0
+juvenile nonfiction-fiction: M2 > M1
+
+
+C-G: social science-fiction : 0
+C-G: fiction-social science : 0
+G-C: social science-fiction : 21
+G-C: fiction-social science : 0
+G-G: social science-fiction : 8
+G-G: fiction-social science : 0
+social science-fiction: M2 > M1
+
+
+C-G: literary collections-fiction : 0
+C-G: fiction-literary collections : 0
+G-C: literary collections-fiction : 16
+G-C: fiction-literary collections : 0
+G-G: literary collections-fiction : 0
+G-G: fiction-literary collections : 0
+literary collections-fiction: M2 > M1
+
+
+C-G: young adult nonfiction-fiction : 0
+C-G: fiction-young adult nonfiction : 0
+G-C: young adult nonfiction-fiction : 16
+G-C: fiction-young adult nonfiction : 0
+G-G: young adult nonfiction-fiction : 5
+G-G: fiction-young adult nonfiction : 0
+young adult nonfiction-fiction: M2 > M1
+
+
+C-G: literary criticism-fiction : 0
+C-G: fiction-literary criticism : 0
+G-C: literary criticism-fiction : 14
+G-C: fiction-literary criticism : 0
+G-G: literary criticism-fiction : 0
+G-G: fiction-literary criticism : 0
+literary criticism-fiction: M2 > M1
+
+
+C-G: history-juvenile nonfiction : 0
+C-G: juvenile nonfiction-history : 0
+G-C: history-juvenile nonfiction : 13
+G-C: juvenile nonfiction-history : 0
+G-G: history-juvenile nonfiction : 11
+G-G: juvenile nonfiction-history : 0
+history-juvenile nonfiction: M2 > M1
+
+
+C-G: travel-fiction : 0
+C-G: fiction-travel : 0
+G-C: travel-fiction : 11
+G-C: fiction-travel : 0
+G-G: travel-fiction : 0
+G-G: fiction-travel : 0
+travel-fiction: M2 > M1
+
+
+C-G: history-religion : 0
+C-G: religion-history : 0
+G-C: history-religion : 11
+G-C: religion-history : 0
+G-G: history-religion : 0
+G-G: religion-history : 0
+history-religion: M2 > M1
+
+
+C-G: humor-fiction : 0
+C-G: fiction-humor : 0
+G-C: humor-fiction : 10
+G-C: fiction-humor : 0
+G-G: humor-fiction : 0
+G-G: fiction-humor : 0
+humor-fiction: M2 > M1
+
+
+C-G: social science-political science : 0
+C-G: political science-social science : 0
+G-C: social science-political science : 10
+G-C: political science-social science : 0
+G-G: social science-political science : 0
+G-G: political science-social science : 0
+social science-political science: M2 > M1
+
+
+C-G: sports & recreation-fiction : 0
+C-G: fiction-sports & recreation : 0
+G-C: sports & recreation-fiction : 9
+G-C: fiction-sports & recreation : 0
+G-G: sports & recreation-fiction : 0
+G-G: fiction-sports & recreation : 0
+sports & recreation-fiction: M2 > M1
+
+
+C-G: medical-health & fitness : 0
+C-G: health & fitness-medical : 0
+G-C: medical-health & fitness : 8
+G-C: health & fitness-medical : 0
+G-G: medical-health & fitness : 0
+G-G: health & fitness-medical : 0
+medical-health & fitness: M2 > M1
+
+
+C-G: political science-fiction : 0
+C-G: fiction-political science : 0
+G-C: political science-fiction : 8
+G-C: fiction-political science : 0
+G-G: political science-fiction : 0
+G-G: fiction-political science : 0
+political science-fiction: M2 > M1
+
+
+C-G: art-juvenile nonfiction : 0
+C-G: juvenile nonfiction-art : 0
+G-C: art-juvenile nonfiction : 8
+G-C: juvenile nonfiction-art : 0
+G-G: art-juvenile nonfiction : 8
+G-G: juvenile nonfiction-art : 0
+art-juvenile nonfiction: M2 > M1
+
+
+C-G: crafts & hobbies-juvenile nonfiction : 0
+C-G: juvenile nonfiction-crafts & hobbies : 0
+G-C: crafts & hobbies-juvenile nonfiction : 8
+G-C: juvenile nonfiction-crafts & hobbies : 0
+G-G: crafts & hobbies-juvenile nonfiction : 0
+G-G: juvenile nonfiction-crafts & hobbies : 0
+crafts & hobbies-juvenile nonfiction: M2 > M1
+
+
+C-G: self-help-religion : 0
+C-G: help-self : 0
+G-C: self-help-religion : 6
+G-C: help-self : 0
+G-G: self-help-religion : 0
+G-G: help-self : 0
+self-help-religion: M2 > M1
+
+
+C-G: gardening-cooking : 0
+C-G: cooking-gardening : 0
+G-C: gardening-cooking : 6
+G-C: cooking-gardening : 0
+G-G: gardening-cooking : 0
+G-G: cooking-gardening : 0
+gardening-cooking: M2 > M1
+
+
+C-G: self-help-health & fitness : 0
+C-G: help-self : 0
+G-C: self-help-health & fitness : 6
+G-C: help-self : 0
+G-G: self-help-health & fitness : 0
+G-G: help-self : 0
+self-help-health & fitness: M2 > M1
+
+
+C-G: business & economics-fiction : 0
+C-G: fiction-business & economics : 0
+G-C: business & economics-fiction : 6
+G-C: fiction-business & economics : 0
+G-G: business & economics-fiction : 0
+G-G: fiction-business & economics : 0
+business & economics-fiction: M2 > M1
+
+
+C-G: sports & recreation-juvenile nonfiction : 0
+C-G: juvenile nonfiction-sports & recreation : 0
+G-C: sports & recreation-juvenile nonfiction : 6
+G-C: juvenile nonfiction-sports & recreation : 0
+G-G: sports & recreation-juvenile nonfiction : 0
+G-G: juvenile nonfiction-sports & recreation : 0
+sports & recreation-juvenile nonfiction: M2 > M1
+
+
+C-G: psychology-self-help : 0
+C-G: self-psychology : 0
+G-C: psychology-self-help : 6
+G-C: self-psychology : 0
+G-G: psychology-self-help : 0
+G-G: self-psychology : 0
+psychology-self-help: M2 > M1
+
+
+C-G: humor-juvenile fiction : 0
+C-G: juvenile fiction-humor : 0
+G-C: humor-juvenile fiction : 5
+G-C: juvenile fiction-humor : 0
+G-G: humor-juvenile fiction : 5
+G-G: juvenile fiction-humor : 0
+humor-juvenile fiction: M2 > M1
+
+
+C-G: reference-fiction : 0
+C-G: fiction-reference : 0
+G-C: reference-fiction : 5
+G-C: fiction-reference : 0
+G-G: reference-fiction : 0
+G-G: fiction-reference : 0
+reference-fiction: M2 > M1
+
+
+C-G: performing arts-fiction : 0
+C-G: fiction-performing arts : 0
+G-C: performing arts-fiction : 5
+G-C: fiction-performing arts : 0
+G-G: performing arts-fiction : 0
+G-G: fiction-performing arts : 0
+performing arts-fiction: M2 > M1
+
+
+C-G: self-help-fiction : 0
+C-G: help-self : 0
+G-C: self-help-fiction : 5
+G-C: help-self : 0
+G-G: self-help-fiction : 0
+G-G: help-self : 0
+self-help-fiction: M2 > M1
+
+
+C-G: family & relationships-juvenile fiction : 0
+C-G: juvenile fiction-family & relationships : 0
+G-C: family & relationships-juvenile fiction : 5
+G-C: juvenile fiction-family & relationships : 0
+G-G: family & relationships-juvenile fiction : 0
+G-G: juvenile fiction-family & relationships : 0
+family & relationships-juvenile fiction: M2 > M1
+
+
+C-G: social science-business & economics : 0
+C-G: business & economics-social science : 0
+G-C: social science-business & economics : 5
+G-C: business & economics-social science : 0
+G-G: social science-business & economics : 0
+G-G: business & economics-social science : 0
+social science-business & economics: M2 > M1
+
+
+C-G: history-juvenile fiction : 0
+C-G: juvenile fiction-history : 0
+G-C: history-juvenile fiction : 5
+G-C: juvenile fiction-history : 0
+G-G: history-juvenile fiction : 0
+G-G: juvenile fiction-history : 0
+history-juvenile fiction: M2 > M1
+
+
+C-G: drama-fiction : 0
+C-G: fiction-drama : 0
+G-C: drama-fiction : 5
+G-C: fiction-drama : 0
+G-G: drama-fiction : 0
+G-G: fiction-drama : 0
+drama-fiction: M2 > M1
+
+
+C-G: self-help-business & economics : 0
+C-G: help-self : 0
+G-C: self-help-business & economics : 5
+G-C: help-self : 0
+G-G: self-help-business & economics : 0
+G-G: help-self : 0
+self-help-business & economics: M2 > M1
+
+
+C-G: cooking-juvenile nonfiction : 0
+C-G: juvenile nonfiction-cooking : 0
+G-C: cooking-juvenile nonfiction : 5
+G-C: juvenile nonfiction-cooking : 0
+G-G: cooking-juvenile nonfiction : 0
+G-G: juvenile nonfiction-cooking : 0
+cooking-juvenile nonfiction: M2 > M1
+
+

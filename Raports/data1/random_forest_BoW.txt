@@ -1,0 +1,26 @@
+Train data procentage:0.7998711616920764
+Test data procentage:0.20012883830792355
+Dataset: Datasets//data1.csv
+
+Bag of Words
+Acuratețea modelului: 0.5536480686695279
+
+
+Raport de clasificare:
+              precision    recall  f1-score   support
+
+       crime       0.73      0.40      0.52       109
+     fantasy       0.63      0.68      0.66       196
+     history       0.66      0.58      0.62       118
+      horror       0.55      0.35      0.43       113
+  psychology       0.50      0.04      0.07        26
+     romance       0.00      0.00      0.00        17
+     science       0.61      0.70      0.65       120
+      sports       0.67      0.15      0.25        13
+    thriller       0.43      0.73      0.54       198
+      travel       0.00      0.00      0.00        22
+
+    accuracy                           0.55       932
+   macro avg       0.48      0.36      0.37       932
+weighted avg       0.56      0.55      0.53       932
+

@@ -1,0 +1,44 @@
+Dataset: Datasets//data1.csv
+     - Colmuns: index, title, genre, summary, 
+     - genres: thriller: 21.97%, fantasy: 18.81%, science: 13.89%, history: 12.88%, 
+horror: 12.88%, crime: 10.74%, romance: 2.38%, psychology: 2.15%, sports: 2.15%, 
+travel: 2.15%, 
+     - Number of rows: 4657
+     - Number of Classes: 10
+
+Dataset: Datasets//data2.csv
+     - Colmuns: title, authors, summary, genre, publisher, price starting with ($), publish date (month), publish date (year), 
+     - genres: fiction: 27.14%, juvenile fiction: 9.86%, religion: 5.30%, cooking: 4.43%, 
+juvenile nonfiction: 4.08%, business & economics: 3.89%, biography & autobiography: 3.25%, history: 3.13%, political science: 2.83%, 
+health & fitness: 2.43%, young adult fiction: 2.38%, social science: 2.24%, family & relationships: 1.94%, travel: 1.81%, 
+self-help: 1.66%, sports & recreation: 1.64%, humor: 1.49%, reference: 1.31%, science: 1.30%, 
+computers: 1.27%, house & home: 1.23%, psychology: 1.21%, crafts & hobbies: 1.03%, pets: 0.94%, 
+gardening: 0.89%, medical: 0.87%, education: 0.80%, language arts & disciplines: 0.77%, art: 0.71%, 
+young adult nonfiction: 0.65%, nature: 0.63%, technology & engineering: 0.59%, photography: 0.57%, literary criticism: 0.50%, 
+performing arts: 0.50%, body: 0.49%, poetry: 0.42%, music: 0.39%, philosophy: 0.38%, 
+study aids: 0.36%, drama: 0.33%, law: 0.28%, literary collections: 0.23%, antiques & collectibles: 0.23%, 
+mathematics: 0.22%, games: 0.21%, foreign language study: 0.19%, architecture: 0.19%, comics & graphic novels: 0.18%, 
+games & activities: 0.15%, transportation: 0.12%, true crime: 0.11%, design: 0.11%, bibles: 0.07%, 
+non-classifiable: 0.05%, 
+     - Number of rows: 65294
+     - Number of Classes: 55
+
+Dataset: Datasets//data2_simplified.csv
+     - Colmuns: title, authors, summary, genre, publisher, price starting with ($), publish date (month), publish date (year), 
+     - genres: fiction: 39.37%, education: 18.90%, religion: 5.37%, nonfiction: 4.85%, 
+cooking: 4.43%, art: 3.87%, health: 3.79%, biography & autobiography: 3.25%, family & relationships: 1.94%, 
+travel: 1.81%, sports & recreation: 1.64%, nature: 1.52%, humor: 1.49%, reference: 1.31%, 
+computers: 1.27%, house & home: 1.23%, crafts & hobbies: 1.03%, pets: 0.94%, literature: 0.74%, 
+games: 0.37%, study aids: 0.36%, antiques & collectibles: 0.23%, transportation: 0.12%, design: 0.11%, 
+non-classifiable: 0.05%, 
+     - Number of rows: 65294
+     - Number of Classes: 25
+
+Dataset: Datasets//TestForDt2Dt2Sim.csv
+     - Colmuns: index, title, genre, summary, genre_simplified, 
+     - genres: fiction: 55.11%, science: 18.78%, history: 17.41%, psychology: 2.90%, 
+sports & recreation: 2.90%, travel: 2.90%, 
+     - Number of rows: 3446
+     - Number of Classes: 6
+
+

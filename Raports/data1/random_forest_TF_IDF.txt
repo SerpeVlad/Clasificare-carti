@@ -1,0 +1,26 @@
+Train data procentage:0.7998711616920764
+Test data procentage:0.20012883830792355
+Dataset: Datasets//data1.csv
+
+TF-IDF
+Acuratețea modelului: 0.5407725321888412
+
+
+Raport de clasificare:
+              precision    recall  f1-score   support
+
+       crime       0.71      0.43      0.54       109
+     fantasy       0.61      0.64      0.63       196
+     history       0.67      0.54      0.60       118
+      horror       0.53      0.30      0.38       113
+  psychology       0.00      0.00      0.00        26
+     romance       0.00      0.00      0.00        17
+     science       0.56      0.69      0.62       120
+      sports       0.67      0.15      0.25        13
+    thriller       0.43      0.74      0.55       198
+      travel       0.33      0.05      0.08        22
+
+    accuracy                           0.54       932
+   macro avg       0.45      0.36      0.36       932
+weighted avg       0.54      0.54      0.52       932
+

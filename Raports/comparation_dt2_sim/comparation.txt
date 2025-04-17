@@ -1,0 +1,347 @@
+Model 1: Models\data2_simplified\logistic_regression_BoW.joblib
+Model 2: Models\data2_simplified\logistic_regression_TFIDF.joblib
+Model 1 Corect predictions: 0.9222440040432506
+Model 2 Corect predictions: 0.9400251171623732
+
+
+Corect-Corect: 59622                              0.9131313750114866%
+Corect-Gresit: 595                              0.00911262903176402%
+Gresit-Corect: 1756                              0.02689374215088676%
+Gresit-Gresit: 3321                              0.05086225380586271%
+Total: 65294
+
+
+Corect-Gresit: {'education-fiction': 40, 'education-health': 37, 'education-biography & autobiography': 34, 'education-family & relationships': 27, 'fiction-nonfiction': 27, 'nonfiction-fiction': 26, 'education-religion': 22, 'education-art': 21, 'education-nonfiction': 20, 'nonfiction-education': 19, 'health-education': 11, 'family & relationships-education': 11, 'art-fiction': 11, 'art-education': 10, 'fiction-health': 9, 'fiction-education': 9, 'education-computers': 8, 'religion-education': 7, 'education-reference': 7, 'fiction-biography & autobiography': 7, 'biography & autobiography-education': 7, 'religion-family & relationships': 7, 'education-humor': 7, 'nature-education': 6, 'education-study aids': 6, 'art-nonfiction': 6, 'biography & autobiography-fiction': 5, 'humor-education': 5, 'education-literature': 5, 'education-house & home': 5, 'travel-education': 5}
+
+
+
+Gresit-Corect{'nonfiction-fiction': 328, 'nonfiction-education': 174, 'art-education': 87, 'education-fiction': 82, 'biography & autobiography-education': 77, 'biography & autobiography-fiction': 63, 'health-education': 62, 'art-fiction': 58, 'family & relationships-education': 52, 'religion-education': 50, 'nature-education': 41, 'house & home-education': 41, 'fiction-education': 39, 'religion-fiction': 36, 'literature-fiction': 34, 'reference-education': 34, 'travel-education': 25, 'humor-education': 24, 'family & relationships-fiction': 20, 'humor-fiction': 17, 'education-health': 17, 'sports & recreation-fiction': 14, 'travel-fiction': 13, 'education-biography & autobiography': 12, 'pets-education': 12, 'literature-education': 11, 'crafts & hobbies-education': 10, 'computers-education': 9, 'health-fiction': 9, 'nonfiction-religion': 9, 'art-nonfiction': 9, 'crafts & hobbies-art': 8, 'religion-family & relationships': 7, 'education-nonfiction': 7, 'education-humor': 6, 'reference-fiction': 6, 'fiction-biography & autobiography': 6, 'study aids-education': 6, 'family & relationships-religion': 6, 'fiction-nonfiction': 6, 'sports & recreation-education': 5, 'nonfiction-health': 5, 'education-reference': 5}
+
+
+
+Gresit-Gresit{'nonfiction-nonfiction': 544, 'education-education': 499, 'fiction-fiction': 259, 'art-art': 235, 'religion-religion': 207, 'biography & autobiography-biography & autobiography': 192, 'family & relationships-family & relationships': 147, 'health-health': 126, 'reference-reference': 90, 'humor-humor': 76, 'nature-nature': 74, 'crafts & hobbies-crafts & hobbies': 59, 'travel-travel': 55, 'house & home-house & home': 53, 'literature-literature': 52, 'sports & recreation-sports & recreation': 50, 'cooking-cooking': 46, 'pets-pets': 29, 'computers-computers': 28, 'nonfiction-education': 20, 'art-education': 17, 'nonfiction-fiction': 17, 'humor-education': 16, 'study aids-study aids': 16, 'art-nonfiction': 14, 'education-fiction': 12, 'games-games': 12, 'art-fiction': 11, 'biography & autobiography-fiction': 11, 'nonfiction-health': 10, 'religion-nonfiction': 10, 'education-health': 9, 'literature-education': 8, 'religion-education': 8, 'fiction-nonfiction': 8, 'biography & autobiography-education': 8, 'biography & autobiography-nonfiction': 7, 'reference-education': 7, 'humor-nonfiction': 7, 'education-nonfiction': 6, 'non-classifiable-non-classifiable': 6, 'health-education': 6, 'education-biography & autobiography': 5, 'family & relationships-education': 5, 'travel-education': 5, 'family & relationships-fiction': 5}
+
+
+
+C-G: education-fiction : 40
+C-G: fiction-education : 9
+G-C: education-fiction : 82
+G-C: fiction-education : 39
+G-G: education-fiction : 12
+G-G: fiction-education : 0
+education-fiction: M2 > M1
+fiction-education: M2 > M1
+
+
+C-G: education-health : 37
+C-G: health-education : 11
+G-C: education-health : 17
+G-C: health-education : 62
+G-G: education-health : 9
+G-G: health-education : 6
+education-health: M1 > M2
+health-education: M2 > M1
+
+
+C-G: education-biography & autobiography : 34
+C-G: biography & autobiography-education : 7
+G-C: education-biography & autobiography : 12
+G-C: biography & autobiography-education : 77
+G-G: education-biography & autobiography : 5
+G-G: biography & autobiography-education : 8
+education-biography & autobiography: M1 > M2
+biography & autobiography-education: M2 > M1
+
+
+C-G: education-family & relationships : 27
+C-G: family & relationships-education : 11
+G-C: education-family & relationships : 0
+G-C: family & relationships-education : 52
+G-G: education-family & relationships : 0
+G-G: family & relationships-education : 5
+education-family & relationships: M1 > M2
+family & relationships-education: M2 > M1
+
+
+C-G: fiction-nonfiction : 27
+C-G: nonfiction-fiction : 26
+G-C: fiction-nonfiction : 6
+G-C: nonfiction-fiction : 328
+G-G: fiction-nonfiction : 8
+G-G: nonfiction-fiction : 17
+fiction-nonfiction: M1 > M2
+nonfiction-fiction: M2 > M1
+
+
+C-G: education-religion : 22
+C-G: religion-education : 7
+G-C: education-religion : 0
+G-C: religion-education : 50
+G-G: education-religion : 0
+G-G: religion-education : 8
+education-religion: M1 > M2
+religion-education: M2 > M1
+
+
+C-G: education-art : 21
+C-G: art-education : 10
+G-C: education-art : 0
+G-C: art-education : 87
+G-G: education-art : 0
+G-G: art-education : 17
+education-art: M1 > M2
+art-education: M2 > M1
+
+
+C-G: education-nonfiction : 20
+C-G: nonfiction-education : 19
+G-C: education-nonfiction : 7
+G-C: nonfiction-education : 174
+G-G: education-nonfiction : 6
+G-G: nonfiction-education : 20
+education-nonfiction: M1 > M2
+nonfiction-education: M2 > M1
+
+
+C-G: art-fiction : 11
+C-G: fiction-art : 0
+G-C: art-fiction : 58
+G-C: fiction-art : 0
+G-G: art-fiction : 11
+G-G: fiction-art : 0
+art-fiction: M2 > M1
+
+
+C-G: fiction-health : 9
+C-G: health-fiction : 0
+G-C: fiction-health : 0
+G-C: health-fiction : 9
+G-G: fiction-health : 0
+G-G: health-fiction : 0
+fiction-health: M1 > M2
+health-fiction: M2 > M1
+
+
+C-G: education-computers : 8
+C-G: computers-education : 0
+G-C: education-computers : 0
+G-C: computers-education : 9
+G-G: education-computers : 0
+G-G: computers-education : 0
+education-computers: M1 > M2
+computers-education: M2 > M1
+
+
+C-G: education-reference : 7
+C-G: reference-education : 0
+G-C: education-reference : 5
+G-C: reference-education : 34
+G-G: education-reference : 0
+G-G: reference-education : 7
+education-reference: M1 > M2
+reference-education: M2 > M1
+
+
+C-G: fiction-biography & autobiography : 7
+C-G: biography & autobiography-fiction : 5
+G-C: fiction-biography & autobiography : 6
+G-C: biography & autobiography-fiction : 63
+G-G: fiction-biography & autobiography : 0
+G-G: biography & autobiography-fiction : 11
+fiction-biography & autobiography: M1 > M2
+biography & autobiography-fiction: M2 > M1
+
+
+C-G: religion-family & relationships : 7
+C-G: family & relationships-religion : 0
+G-C: religion-family & relationships : 7
+G-C: family & relationships-religion : 6
+G-G: religion-family & relationships : 0
+G-G: family & relationships-religion : 0
+family & relationships-religion: M2 > M1
+
+
+C-G: education-humor : 7
+C-G: humor-education : 5
+G-C: education-humor : 6
+G-C: humor-education : 24
+G-G: education-humor : 0
+G-G: humor-education : 16
+education-humor: M1 > M2
+humor-education: M2 > M1
+
+
+C-G: nature-education : 6
+C-G: education-nature : 0
+G-C: nature-education : 41
+G-C: education-nature : 0
+G-G: nature-education : 0
+G-G: education-nature : 0
+nature-education: M2 > M1
+
+
+C-G: education-study aids : 6
+C-G: study aids-education : 0
+G-C: education-study aids : 0
+G-C: study aids-education : 6
+G-G: education-study aids : 0
+G-G: study aids-education : 0
+education-study aids: M1 > M2
+study aids-education: M2 > M1
+
+
+C-G: art-nonfiction : 6
+C-G: nonfiction-art : 0
+G-C: art-nonfiction : 9
+G-C: nonfiction-art : 0
+G-G: art-nonfiction : 14
+G-G: nonfiction-art : 0
+art-nonfiction: M2 > M1
+
+
+C-G: education-literature : 5
+C-G: literature-education : 0
+G-C: education-literature : 0
+G-C: literature-education : 11
+G-G: education-literature : 0
+G-G: literature-education : 8
+education-literature: M1 > M2
+literature-education: M2 > M1
+
+
+C-G: education-house & home : 5
+C-G: house & home-education : 0
+G-C: education-house & home : 0
+G-C: house & home-education : 41
+G-G: education-house & home : 0
+G-G: house & home-education : 0
+education-house & home: M1 > M2
+house & home-education: M2 > M1
+
+
+C-G: travel-education : 5
+C-G: education-travel : 0
+G-C: travel-education : 25
+G-C: education-travel : 0
+G-G: travel-education : 5
+G-G: education-travel : 0
+travel-education: M2 > M1
+
+
+C-G: religion-fiction : 0
+C-G: fiction-religion : 0
+G-C: religion-fiction : 36
+G-C: fiction-religion : 0
+G-G: religion-fiction : 0
+G-G: fiction-religion : 0
+religion-fiction: M2 > M1
+
+
+C-G: literature-fiction : 0
+C-G: fiction-literature : 0
+G-C: literature-fiction : 34
+G-C: fiction-literature : 0
+G-G: literature-fiction : 0
+G-G: fiction-literature : 0
+literature-fiction: M2 > M1
+
+
+C-G: family & relationships-fiction : 0
+C-G: fiction-family & relationships : 0
+G-C: family & relationships-fiction : 20
+G-C: fiction-family & relationships : 0
+G-G: family & relationships-fiction : 5
+G-G: fiction-family & relationships : 0
+family & relationships-fiction: M2 > M1
+
+
+C-G: humor-fiction : 0
+C-G: fiction-humor : 0
+G-C: humor-fiction : 17
+G-C: fiction-humor : 0
+G-G: humor-fiction : 0
+G-G: fiction-humor : 0
+humor-fiction: M2 > M1
+
+
+C-G: sports & recreation-fiction : 0
+C-G: fiction-sports & recreation : 0
+G-C: sports & recreation-fiction : 14
+G-C: fiction-sports & recreation : 0
+G-G: sports & recreation-fiction : 0
+G-G: fiction-sports & recreation : 0
+sports & recreation-fiction: M2 > M1
+
+
+C-G: travel-fiction : 0
+C-G: fiction-travel : 0
+G-C: travel-fiction : 13
+G-C: fiction-travel : 0
+G-G: travel-fiction : 0
+G-G: fiction-travel : 0
+travel-fiction: M2 > M1
+
+
+C-G: pets-education : 0
+C-G: education-pets : 0
+G-C: pets-education : 12
+G-C: education-pets : 0
+G-G: pets-education : 0
+G-G: education-pets : 0
+pets-education: M2 > M1
+
+
+C-G: crafts & hobbies-education : 0
+C-G: education-crafts & hobbies : 0
+G-C: crafts & hobbies-education : 10
+G-C: education-crafts & hobbies : 0
+G-G: crafts & hobbies-education : 0
+G-G: education-crafts & hobbies : 0
+crafts & hobbies-education: M2 > M1
+
+
+C-G: nonfiction-religion : 0
+C-G: religion-nonfiction : 0
+G-C: nonfiction-religion : 9
+G-C: religion-nonfiction : 0
+G-G: nonfiction-religion : 0
+G-G: religion-nonfiction : 10
+nonfiction-religion: M2 > M1
+
+
+C-G: crafts & hobbies-art : 0
+C-G: art-crafts & hobbies : 0
+G-C: crafts & hobbies-art : 8
+G-C: art-crafts & hobbies : 0
+G-G: crafts & hobbies-art : 0
+G-G: art-crafts & hobbies : 0
+crafts & hobbies-art: M2 > M1
+
+
+C-G: reference-fiction : 0
+C-G: fiction-reference : 0
+G-C: reference-fiction : 6
+G-C: fiction-reference : 0
+G-G: reference-fiction : 0
+G-G: fiction-reference : 0
+reference-fiction: M2 > M1
+
+
+C-G: sports & recreation-education : 0
+C-G: education-sports & recreation : 0
+G-C: sports & recreation-education : 5
+G-C: education-sports & recreation : 0
+G-G: sports & recreation-education : 0
+G-G: education-sports & recreation : 0
+sports & recreation-education: M2 > M1
+
+
+C-G: nonfiction-health : 0
+C-G: health-nonfiction : 0
+G-C: nonfiction-health : 5
+G-C: health-nonfiction : 0
+G-G: nonfiction-health : 10
+G-G: health-nonfiction : 0
+nonfiction-health: M2 > M1
+
+

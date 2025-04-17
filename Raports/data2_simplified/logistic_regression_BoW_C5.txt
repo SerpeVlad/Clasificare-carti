@@ -1,0 +1,42 @@
+Train data procentage:0.7999969369314179
+Test data procentage:0.2000030630685821
+C:5.0
+Dataset: Datasets//data2_simplified.csv
+
+Bag of Words
+Acuratețea modelului: 0.7538862087449268
+
+
+Raport de clasificare:
+                           precision    recall  f1-score   support
+
+  antiques & collectibles       0.74      0.67      0.70        30
+                      art       0.47      0.50      0.48       506
+biography & autobiography       0.51      0.49      0.50       424
+                computers       0.83      0.83      0.83       166
+                  cooking       0.92      0.91      0.91       578
+         crafts & hobbies       0.55      0.62      0.59       135
+                   design       0.50      0.21      0.30        14
+                education       0.71      0.71      0.71      2469
+   family & relationships       0.46      0.53      0.49       253
+                  fiction       0.93      0.91      0.92      5142
+                    games       0.62      0.62      0.62        48
+                   health       0.70      0.66      0.68       495
+             house & home       0.65      0.62      0.63       161
+                    humor       0.52      0.52      0.52       195
+               literature       0.24      0.25      0.24        96
+                   nature       0.66      0.67      0.66       199
+         non-classifiable       0.00      0.00      0.00         7
+               nonfiction       0.43      0.52      0.47       633
+                     pets       0.82      0.79      0.80       123
+                reference       0.33      0.33      0.33       171
+                 religion       0.70      0.71      0.71       701
+      sports & recreation       0.67      0.64      0.66       214
+               study aids       0.62      0.64      0.63        47
+           transportation       0.56      0.33      0.42        15
+                   travel       0.77      0.80      0.78       237
+
+                 accuracy                           0.75     13059
+                macro avg       0.60      0.58      0.58     13059
+             weighted avg       0.76      0.75      0.76     13059
+

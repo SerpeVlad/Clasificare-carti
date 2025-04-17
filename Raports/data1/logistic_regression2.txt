@@ -1,0 +1,25 @@
+Train data procentage:0.5999570538973588
+Test data procentage:0.4000429461026412
+Dataset: Datasets//data1_tokenized.csv
+
+Acuratețea modelului: 0.22920021470746108
+
+
+Raport de clasificare:
+              precision    recall  f1-score   support
+
+       crime       0.00      0.00      0.00       200
+     fantasy       0.46      0.04      0.07       351
+     history       0.20      0.00      0.01       240
+      horror       0.45      0.08      0.13       240
+  psychology       0.00      0.00      0.00        40
+     romance       0.00      0.00      0.00        44
+     science       0.26      0.02      0.04       259
+      sports       0.75      0.23      0.35        40
+    thriller       0.22      0.93      0.35       409
+      travel       0.00      0.00      0.00        40
+
+    accuracy                           0.23      1863
+   macro avg       0.23      0.13      0.09      1863
+weighted avg       0.27      0.23      0.12      1863
+

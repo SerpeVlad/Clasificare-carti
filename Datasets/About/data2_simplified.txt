@@ -1,0 +1,10 @@
+Dataset: Datasets//data2_simplified.csv
+     - Colmuns: title, authors, summary, genre, publisher, price starting with ($), publish date (month), publish date (year), 
+     - genres: fiction: 39.37%, education: 18.90%, religion: 5.37%, nonfiction: 4.85%, 
+cooking: 4.43%, art: 3.87%, health: 3.79%, biography & autobiography: 3.25%, family & relationships: 1.94%, 
+travel: 1.81%, sports & recreation: 1.64%, nature: 1.52%, humor: 1.49%, reference: 1.31%, 
+computers: 1.27%, house & home: 1.23%, crafts & hobbies: 1.03%, pets: 0.94%, literature: 0.74%, 
+games: 0.37%, study aids: 0.36%, antiques & collectibles: 0.23%, transportation: 0.12%, design: 0.11%, 
+non-classifiable: 0.05%, 
+     - Number of rows: 65294
+     - Number of Classes: 25

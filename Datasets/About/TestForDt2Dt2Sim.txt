@@ -1,0 +1,6 @@
+Dataset: Datasets//TestForDt2Dt2Sim.csv
+     - Colmuns: index, title, genre, summary, genre_simplified, 
+     - genres: fiction: 55.11%, science: 18.78%, history: 17.41%, psychology: 2.90%, 
+sports & recreation: 2.90%, travel: 2.90%, 
+     - Number of rows: 3446
+     - Number of Classes: 6

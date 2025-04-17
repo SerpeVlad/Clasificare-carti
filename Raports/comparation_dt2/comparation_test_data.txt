@@ -1,0 +1,63 @@
+Model 1: Models\data2\logistic_regression_BoW.joblib
+Model 2: Models\data2\logistic_regression_TF_IDF3.joblib
+Model 1 Corect predictions: 0.4701102727800348
+Model 2 Corect predictions: 0.5084155542658154
+
+
+Corect-Corect: 1574                              0.4567614625652931%
+Corect-Gresit: 46                              0.013348810214741729%
+Gresit-Corect: 178                              0.05165409170052235%
+Gresit-Gresit: 1648                              0.4782356355194428%
+Total: 3446
+
+
+Corect-Gresit: {'fiction-young adult fiction': 7, 'fiction-juvenile fiction': 7}
+
+
+
+Gresit-Corect{'young adult fiction-fiction': 67, 'juvenile fiction-fiction': 50, 'comics & graphic novels-fiction': 10, 'history-fiction': 6}
+
+
+
+Gresit-Gresit{'fiction-fiction': 850, 'juvenile fiction-juvenile fiction': 216, 'young adult fiction-young adult fiction': 160, 'biography & autobiography-biography & autobiography': 38, 'young adult fiction-fiction': 27, 'juvenile fiction-fiction': 27, 'social science-social science': 26, 'history-history': 24, 'juvenile fiction-young adult fiction': 22, 'juvenile nonfiction-juvenile nonfiction': 18, 'religion-religion': 15, 'young adult fiction-juvenile fiction': 13, 'self-help-self-help': 12, 'political science-political science': 11, 'juvenile fiction-juvenile nonfiction': 9, 'comics & graphic novels-fiction': 7, 'performing arts-performing arts': 6, 'fiction-juvenile fiction': 6, 'biography & autobiography-fiction': 6, 'health & fitness-health & fitness': 6, 'history-fiction': 5, 'business & economics-business & economics': 5, 'nature-nature': 5, 'psychology-psychology': 5}
+
+
+
+C-G: fiction-young adult fiction : 7
+C-G: young adult fiction-fiction : 0
+G-C: fiction-young adult fiction : 0
+G-C: young adult fiction-fiction : 67
+G-G: fiction-young adult fiction : 0
+G-G: young adult fiction-fiction : 27
+fiction-young adult fiction: M1 > M2
+young adult fiction-fiction: M2 > M1
+
+
+C-G: fiction-juvenile fiction : 7
+C-G: juvenile fiction-fiction : 0
+G-C: fiction-juvenile fiction : 0
+G-C: juvenile fiction-fiction : 50
+G-G: fiction-juvenile fiction : 6
+G-G: juvenile fiction-fiction : 27
+fiction-juvenile fiction: M1 > M2
+juvenile fiction-fiction: M2 > M1
+
+
+C-G: comics & graphic novels-fiction : 0
+C-G: fiction-comics & graphic novels : 0
+G-C: comics & graphic novels-fiction : 10
+G-C: fiction-comics & graphic novels : 0
+G-G: comics & graphic novels-fiction : 7
+G-G: fiction-comics & graphic novels : 0
+comics & graphic novels-fiction: M2 > M1
+
+
+C-G: history-fiction : 0
+C-G: fiction-history : 0
+G-C: history-fiction : 6
+G-C: fiction-history : 0
+G-G: history-fiction : 5
+G-G: fiction-history : 0
+history-fiction: M2 > M1
+
+
